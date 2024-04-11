@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+/* Counter styling */
+    /* Counter styling */
+    .counter {
+      width: 100%;
+      height: 50px;
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      z-index: 999;
+      opacity: 0.8;
+    }
+    
+    /* Heading styling */
+    .counter-heading {
+      font-size: 40px;
+      font-weight: bold;
+      margin: 0;
+            font-family: 'Comic Sans MS', cursive;
+
+    }
+    
+    /* Links styling */
+    .counter-links {
+      display: flex;
+      align-items: center;
+      margin-right: 40px;
+    }
+    
+    .counter-links a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 25px;
+      transition: background-color 0.3s;
+            font-family: 'Comic Sans MS', cursive;
+
+    }
+    
+    .counter-links a:hover {
+      background-color: #fff;
+      color: #000;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  margin-left: -40px;
+  margin-bottom: 100px;
+}
+
+.footer h1 {
+  font-size: 40px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+    margin-left: -30px;
+
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.section1,
+.section2,
+.section3 {
+  flex: 1;
+  text-align: center;
+}
+
+.section2 {
+  padding: 0 20px;
+}
+
+.section3 {
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+.ban {
+    width: 1300px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+  }
+
+  .ban > div {
+    flex-basis: 25%;
+    text-align: center;
+    color: black;
+  }
+
+  .ban img {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+  }
+
+  .ban .numbers {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+  }
+
+  .ban .text {
+    font-size: 20px;
+          font-family: "Poppins", sans-serif;
+          color: black;
+          margin-left: 50px;
+
+  }
+
+
+
+
+
+
+
+    body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: "Helvetica", Arial, sans-serif;
+        }
+
+        .image-section {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .image-section div {
+            margin: 0 20px;
+            text-align: center;
+        }
+
+        .image-section img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .sub-heading {
+            color: skyblue;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Courier', monospace;
+        }
+
+        .normal-text {
+            color: black;
+            font-size: 16px;
+        }
+
+    
+
+    
+
+
+        .container {
+      display: flex;
+      align-items: center;
+    }
+
+    .image {
+      width: 50%;
+      max-height: 600px;
+    }
+
+    .text {
+      text-align: center;
+      width: 50%;
+      padding: 20px;
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+    }
+
+
+
+
+
+
+
+      .banner {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      display: flex;
+      justify-content: space-between;
+      width:1300;
+    }
+
+    .category {
+      width: 25%;
+      border-right: 1px solid gray;
+      padding: 10px;
+    }
+
+    .category:last-child {
+      border-right: none;
+    }
+    
+    .category span {
+      font-size: 36px;
+      display: block;
+      color: gray;
+    }
+
+
+
+
+
+    .section1{
+      margin-top: 100px;
+    }
+
+
+
+     /* Slideshow container */
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+      margin: 0;
+      opacity: 0.7;
+    }
+  
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    
+    /* Style the navigation dots */
+    .dot {
+      height: 15px;
+      width: 15px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      margin: 0 2px;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+
+
+
+
+
+
+    .text-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 50px;
+      color: black;
+      text-decoration: underline orange;
+
+            font-family: "Andale Mono", monospace;
+            font-weight: bold;
+
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-box {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image-text {
+      text-align: center;
+      margin-top: 5px;
+    }
+
+
+
+
+
+
+
+
+/* Section 1 */
+.gallery-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery-item {
+      width: 25%;
+      box-sizing: border-box;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .gallery-image {
+      position: relative;
+      width: 100%;
+      padding-bottom: 75%; /* Aspect ratio of 4:3 (300/400) */
+      overflow: hidden;
+    }
+
+    .gallery-image img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .gallery-item:hover .gallery-image img {
+      transform: scale(1.1); /* Scale the image by 10% */
+    }
+
+    .gallery-text {
+      background-color: white;
+      color: black;
+      padding: 10px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .gallery-item:hover .gallery-text {
+      background-color: grey;
+      color: white;
+    }
+
+/* Section 2 */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row img {
+  width: 300px;
+  height: 500px;
+  transition: transform 0.7s;
+  position: relative;
+  opacity: 1;
+}
+
+.row img:hover {
+  transform: scale(1.1);
+}
+
+.row img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.row img:hover::after {
+  opacity: 0.8;
+}
+
+.row img::after h3 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.row img::after p {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex > div {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.flex > div:hover img {
+  transform: scale(1.1);
+}
+
+.flex > div:hover .banner {
+  transform: translateY(0%);
+}
+
+.flex .banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+    transition: transform 1s;
+  transform: translateY(100%);
+}
+
+.flex .banner h3,
+.flex .banner p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.flex img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+}
+
+
+
+
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+    margin-top: -100px;
+
+}
+
+.image-wrapper img {
+  width: 1250px;
+  height: 600px;
+  opacity: 0.3;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.text-overlay h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.text-overlay p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.text-overlay input[type="email"] {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 14px;
+  margin-left: -50px;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: darkblue;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 60px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 5px;
+  margin-bottom: 200px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 1s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+  .image-wrapper {
+    display: flex;
+  }
+  
+  .image-wrapper > div {
+    width: 25%;
+    height: auto;
+  }
+  
+  .image-wrapper > div > img {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+
+  </style>
+</head>
+<body>
+
+
+  <div class="counter">
+  <h1 class="counter-heading">Whisk ANd Wander</h1>
+  
+  <div class="counter-links">
+    <a href="#">Home</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+</div>
+
+
+
+
+  <div class="slideshow-container">
+  
+  <!-- Slide 1 -->
+  <div class="mySlides">
+    <img src="1.png" alt="Image 1" style="width: 1300px; height:600px;">
+  </div>
+  
+  <!-- Slide 2 -->
+  <div class="mySlides">
+    <img src="2.png" alt="Image 2" style="width: 1300px; height: 600px;">
+  </div>
+  
+  <!-- Slide 3 -->
+  <div class="mySlides">
+    <img src="3.png" alt="Image 3" style="width: 1300px; height: 600px;">
+  </div>
+  
+  <!-- Slide 4 -->
+  <div class="mySlides">
+    <img src="4.png" alt="Image 4" style="width: 1300px; height: 600px;">
+  </div>
+  
+  <!-- Slide 5 -->
+  <div class="mySlides">
+    <img src="5.png" alt="Image 5" style="width: 1300px; height: 600px;">
+  </div>
+  
+  <!-- Slide 6 -->
+  <div class="mySlides">
+    <img src="6.png" alt="Image 6" style="width: 1300px; height: 600px;">
+  </div>
+  
+  <!-- Navigation dots -->
+  <div style="text-align: center;">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
+
+<script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (var i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    for (var i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    setTimeout(showSlides, 4000); // Change slide every 2 seconds
+  }
+</script>
+
+
+
+
+
+<div class="section1">
+  <div class="text-container">
+    WHAT WE DO
+  </div>
+</div>
+
+  <div class="image-row">
+    <div class="image-box">
+      <img src="job 1.jpeg" alt="Image 6">
+      <div class="image-text">Text for Image 6</div>
+    </div>
+    <div class="image-box">
+      <img src="job 2.jpeg" alt="Image 7">
+      <div class="image-text">Text for Image 7</div>
+    </div>
+    <div class="image-box">
+      <img src="job 3.jpeg" alt="Image 8">
+      <div class="image-text">Text for Image 8</div>
+    </div>
+  </div>
+
+  <div class="section1">
+  <div class="container">
+    <img class="image" src="main.jpg" alt="Your Image">
+
+    <div class="text">
+      <h2>Checkout Our Restaurant In Video</h2>
+      <p>Maecenas ac euismod eros. Aliquam a suscipit nibh. Aliquam iaculis erat porta mauris fermentum lacinia. Donec posuere a massa sit amet sagittis. Nam ut nulla a ligula dictum imperdiet nec ut mauris.</p>
+      <div class="video-container">
+        <iframe src="https://youtu.be/fq1n5jQlLT8" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="ban">
+  <div>
+    <img src="icon 1.jpg" alt="Photo 1">
+    <div class="numbers" id="numbers1"></div>
+    <div class="text">
+      Branches
+    </div>
+  </div>
+  <div>
+    <img src="icon 2.jpg" alt="Photo 2">
+    <div class="numbers" id="numbers2"></div>
+    <div class="text">
+      Food Items
+    </div>
+  </div>
+  <div>
+    <img src="icon 3.jpg" alt="Photo 3">
+    <div class="numbers" id="numbers3"></div>
+    <div class="text">
+      Qualifies Chefs
+    </div>
+  </div>
+  <div>
+    <img src="icon 4.jpg" alt="Photo 4">
+    <div class="numbers" id="numbers4"></div>
+    <div class="text">
+      Happy Customers
+    </div>
+  </div>
+</div>
+
+<script>
+  // Function to continuously increase numbers up to a limit
+  function increaseNumbers(elementId, limit) {
+    let number = 0;
+    const interval = setInterval(() => {
+      if (number === limit) {
+        clearInterval(interval);
+      } else {
+        number++;
+        document.getElementById(elementId).textContent = number;
+      }
+    }, 100); // Adjust the interval speed as per your requirement
+  }
+
+  // Call the function for each numbers element
+  increaseNumbers('numbers1', 100);
+  increaseNumbers('numbers2', 200);
+  increaseNumbers('numbers3', 300);
+  increaseNumbers('numbers4', 400);
+</script>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<div class="section1">
+  <div class="text-container">
+    HOW WE WORK
+  </div>
+</div>
+
+
+ <div class="image-section">
+        <div>
+            <img src="hat 1.png" alt="Image 1">
+            <h2 class="sub-heading">Image 1 Sub Heading</h2>
+            <p class="normal-text">This is the description for Image 1.</p>
+        </div>
+        <div>
+            <img src="hat 2.png" alt="Image 2">
+            <h2 class="sub-heading">Image 2 Sub Heading</h2>
+            <p class="normal-text">This is the description for Image 2.</p>
+        </div>
+        <div>
+            <img src="hat 3.png" alt="Image 3">
+            <h2 class="sub-heading">Image 3 Sub Heading</h2>
+            <p class="normal-text">This is the description for Image 3.</p>
+        </div>
+              
+    </div>
+
+
+<div id="modal" class="modal">
+  <span class="modal-content"></span>
+</div>
+
+<script>
+var galleryItems = document.querySelectorAll('.gallery-item');
+var modal = document.getElementById('modal');
+var modalContent = document.querySelector('.modal-content');
+
+galleryItems.forEach(function(item) {
+  item.addEventListener('click', function() {
+    var imgSrc = item.querySelector('img').getAttribute('src');
+    modalContent.innerHTML = '<img src="' + imgSrc + '" alt="Large Image">';
+    modal.style.display = 'flex';
+  });
+});
+
+modal.addEventListener('click', function() {
+  modal.style.display = 'none';
+  modalContent.innerHTML = '';
+});
+</script>
+
+
+<div class="section1">
+  <div class="text-container">
+    FOOD GALLERY
+  </div>
+</div>
+<br>
+<br>
+<!-- Section 1 -->
+<div class="gallery-row">
+    <div class="gallery-item">
+      <div class="gallery-image">
+        <img src="food 1.jpeg" alt="Image 1">
+      </div>
+      <div class="gallery-text">
+        <h3>Image 1</h3>
+        <p>Description 1</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-image">
+        <img src="food 2.jpeg" alt="Image 2">
+      </div>
+      <div class="gallery-text">
+        <h3>Image 2</h3>
+        <p>Description 2</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-image">
+        <img src="food 3.jpeg" alt="Image 3">
+      </div>
+      <div class="gallery-text">
+        <h3>Image 3</h3>
+        <p>Description 3</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-image">
+        <img src="food 4.jpeg" alt="Image 4">
+      </div>
+      <div class="gallery-text">
+        <h3>Image 4</h3>
+        <p>Description 4</p>
+      </div>
+    </div>
+  </div>
+  <div class="gallery-row">
+    <div class="gallery-item">
+      <div class="gallery-image">
+        <img src="food 5.jpeg" alt="Image 1">
+      </div>
+      <div class="gallery-text">
+        <h3>Image 1</h3>
+        <p>Description 1</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-image">
+        <img src="food 6.jpeg" alt="Image 2">
+      </div>
+      <div class="gallery-text">
+        <h3>Image 2</h3>
+
+        <p>Description 2</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-image">
+        <img src="food 7.jpeg" alt="Image 3">
+      </div>
+      <div class="gallery-text">
+        <h3>Image 3</h3>
+        <p>Description 3</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-image">
+        <img src="food 8.png" alt="Image 4">
+      </div>
+      <div class="gallery-text">
+        <h3>Image 4</h3>
+        <p>Description 4</p>
+      </div>
+    </div>
+  </div>
+
+<div class="section1">
+  <div class="text-container">
+    OUR CHEFS
+  </div>
+</div>
+<br>
+<br>
+<!-- Section 2 -->
+<div class="flex">
+  <div>
+    <img src="chef 1.jpeg" alt="Image 1">
+    <div class="banner">
+      <h3>Heading 1</h3>
+      <p>Text 1</p>
+    </div>
+  </div>
+  <div>
+    <img src="chef 2.jpeg" alt="Image 2">
+    <div class="banner">
+      <h3>Heading 2</h3>
+      <p>Text 2</p>
+    </div>
+  </div>
+  <div>
+    <img src="chef 3.jpeg" alt="Image 3">
+    <div class="banner">
+      <h3>Heading 3</h3>
+      <p>Text 3</p>
+    </div>
+  </div>
+  <div>
+    <img src="chef 4.jpeg" alt="Image 4">
+    <div class="banner">
+      <h3>Heading 4</h3>
+      <p>Text 4</p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<div class="image-wrapper">
+  <img src="last bg.jpeg" alt="Image" width="2300px" height="800px">
+
+  <div class="text-overlay">
+    <div class="section1">
+  <div class="text-container">
+    NEWSLETTER
+  </div>
+</div>
+    <p>Some text goes here.</p>
+    <input type="email" placeholder="Enter your email">
+    <br>
+<button class="button"><span>Subscribe </span></button>
+
+
+
+
+
+<div class="image-wrapper">
+  <div>
+    <img src="fb.png" alt="1" >
+  </div>
+  <div>
+    <img src="instagram.png" alt="2" >
+  </div>
+  <div>
+    <img src="linkedin.png" alt="3" >
+  </div>
+  <div>
+    <img src="twitter.png" alt="4" >
+  </div>
+  <div>
+    <img src="google.png" alt="5" >
+  </div>
+</div>
+  </div>
+</div>
+
+
+
+
+<div class="footer">
+  <div class="section1">
+    <p>&copy; 2023 | Yashika Verma</p>
+  </div>
+  <div class="section2">
+    <h1>Whisk And Wander</h1>
+  </div>
+  <div class="section3">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+  </div>
+</div>
+
+
+
+  
+
+
+
+</body>
+</html>

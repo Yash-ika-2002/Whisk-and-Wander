@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Counter styling */
+    .counter {
+      width: 100%;
+      height: 50px;
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      z-index: 999;
+      opacity: 0.8;
+    }
+    
+    /* Heading styling */
+    .counter-heading {
+      font-size: 40px;
+      font-weight: bold;
+      margin: 0;
+            font-family: 'Comic Sans MS', cursive;
+
+    }
+    
+    /* Links styling */
+    .counter-links {
+      display: flex;
+      align-items: center;
+      margin-right: 40px;
+    }
+    
+    .counter-links a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 25px;
+      transition: background-color 0.3s;
+            font-family: 'Comic Sans MS', cursive;
+
+    }
+    
+    .counter-links a:hover {
+      background-color: #fff;
+      color: #000;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="counter">
+  <h1 class="counter-heading">Main Heading</h1>
+  
+  <div class="counter-links">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+</div>
+
+<!-- Add some content to simulate scrolling -->
+<div style="height: 2000px;"></div>
+
+</body>
+</html>
